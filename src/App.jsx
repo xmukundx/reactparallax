@@ -1,21 +1,22 @@
 
 import './App.css'
-import ImageOne from './components/imageOne'
-import ImageTwo from './components/imageTwo'
-import ImageThree from './components/imageThree'
+import ImageComponent from './components/ImageComponent'
 import TextSection from './components/textSection'
+
 
 
 function App() {
 
 
   return (
-    <div >
-      <ImageOne />
+    <div className='main' >
+
+      <ImageComponent img='space1.jpg' />
       <TextSection />
-      <ImageTwo />
+      <ImageComponent img='space2.jpg' />
       <TextSection />
-      <ImageThree />
+      <ImageComponent img='space3.jpg' />
+
     </div>
 
 
